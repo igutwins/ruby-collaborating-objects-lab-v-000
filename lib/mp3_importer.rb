@@ -4,7 +4,7 @@ attr_accessor :path
     @path = path
   end
   def files
-    Dir[@path/*.mp3]
+    Dir["#{@path}/*.mp3"]
   end
   def import
     self.p

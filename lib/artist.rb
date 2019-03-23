@@ -19,6 +19,6 @@ def self.all
   @@all
 end
 def find_or_create_by_name(name)
-  
-end 
+
+end
 end
